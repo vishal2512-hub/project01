@@ -1,0 +1,23 @@
+import React from "react";
+
+class Profileclass extends React.Component {
+  constructor(props) {
+    super(props);
+
+  }
+  render() {
+    return(
+      <div style={{
+        border:"1px solid black",
+        marginm:"10px solid black"
+      }}>
+        <h1>Profile based component</h1>
+      <h1>Name: {this.props.name}</h1>
+      <h1>Address : {this.props.address}</h1>
+      <h1>Email : Vishalharsora338@gmail.com</h1>
+    </div>
+    )
+  }
+}
+export default Profileclass;
+
